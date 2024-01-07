@@ -1,0 +1,33 @@
+input[type="text"],
+[type="email"] {
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form {
+  background-color: antiquewhite;
+  padding: 20px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: brown;
+  padding: 10px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+input.ng-invalid.ng-touched {
+  border: red 6px solid;
+}
+
+/*
+small {
+  color: red;
+} */
